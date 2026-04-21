@@ -23,6 +23,7 @@ body {
     background-color: var(--gray900);
     padding: 10px;
     font-family: "Inter", sans-serif;
+    overflow: hidden;
 }
 
 .card {
@@ -77,6 +78,8 @@ picture > img {
     font-size: 15px;
     transition: background-color 0.5s ease;
     font-weight: 700;
+    cursor: pointer;
+    outline: none;
 }
 
 .link:hover {
